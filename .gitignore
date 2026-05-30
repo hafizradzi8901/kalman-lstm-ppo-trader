@@ -1,0 +1,27 @@
+# Secrets — NEVER commit real keys
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Training artifacts / RL checkpoints / tensorboard
+runs/
+*.zip
+*.pkl
+*.npz
+*.pth
+*.pt
+
+# Local design scratch / prompt drafts (kept out of the public repo)
+boilerplatev1.txt
+architecture_ideas_v2.txt
+
+# Editors
+.vscode/
+.idea/
+.ipynb_checkpoints/

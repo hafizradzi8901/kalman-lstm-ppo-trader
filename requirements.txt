@@ -1,0 +1,7 @@
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+gymnasium>=0.29
+yfinance>=0.2
+stable-baselines3>=2.3
+sb3-contrib>=2.3
